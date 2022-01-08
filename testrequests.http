@@ -1,8 +1,11 @@
 //curl -H 'Content-Type: application/json' -d '{"content":"New World 222","attachment":"new.jpg"}' -X PUT https://c3028glyqg.execute-api.us-east-1.amazonaws.com/notes/e58359c0-70cd-11ec-937a-5b79c1f6722a
 
+
 GET https://c3028glyqg.execute-api.us-east-1.amazonaws.com/notes
 
 //GET https://c3028glyqg.execute-api.us-east-1.amazonaws.com/notes/e58359c0-70cd-11ec-937a-5b79c1f6722a
+
+//DELETE https://c3028glyqg.execute-api.us-east-1.amazonaws.com/notes/e58359c0-70cd-11ec-937a-5b79c1f6722a
 
 
 //curl -H "Content-Type:application/json"  -d '{"content":"Hello World", "attachment":"hello.jpg"}' -X POST https://c3028glyqg.execute-api.us-east-1.amazonaws.com/notes

@@ -6,7 +6,7 @@ export const main = handler( async(event) => {
         TableName : process.env.TABLE_NAME,
         Key: {
             userId: "123",
-            noteId: event.pathProperties.id,
+            noteId: event.pathParameters.id,
         },
     }
     await dynamodb.delete(params);
